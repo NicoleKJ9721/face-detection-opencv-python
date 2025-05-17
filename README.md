@@ -54,6 +54,10 @@ pip install opencv-python
 └── README.md             # 本说明文件
 ```
 
+## 许可证
+
+本项目采用 MIT 许可证。详情请参阅 [LICENSE](LICENSE) 文件。
+
 ## 注意事项
 
 -   如果摄像头无法打开，请检查摄像头是否被其他应用占用，或者尝试修改 `test.py` 文件中 `cv2.VideoCapture()` 的参数（例如 `0`, `1`, `-1`）。
